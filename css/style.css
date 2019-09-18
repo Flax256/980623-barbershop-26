@@ -1,3 +1,27 @@
+@font-face{
+font-family: "MyPTSans";
+src: 
+url("../fonts/ptsansnarrow.woff") format("woff"),
+url("../fonts/ptsansnarrow.woff2") format("woff2");
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: "MyPTSans";
+src: 
+url("../fonts/ptsansnarrowbold.woff") format("woff"),
+url("../fonts/ptsansnarrowbold.woff2") format("woff2");
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: "MyPTSans";
+src: 
+url("../fonts/ptsansnarrowitalic.woff") format("woff"),
+url("../fonts/ptsansnarrowitalic.woff2") format("woff2");
+font-weight: normal;
+font-style: italic;
+}
 body {
   margin: 0;
   padding: 0;
@@ -21,6 +45,7 @@ body {
   text-transform: uppercase;
   background-color: #000000;
   border: none;
+  font-family: "MyPTSans";    
 }
 .button:hover,
 .button:focus,
