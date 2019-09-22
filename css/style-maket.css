@@ -1,0 +1,178 @@
+@font-face{
+font-family: "MyPTSans";
+src: 
+url("../fonts/ptsansnarrow.woff") format("woff"),
+url("../fonts/ptsansnarrow.woff2") format("woff2");
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: "MyPTSans";
+src: 
+url("../fonts/ptsansnarrowbold.woff") format("woff"),
+url("../fonts/ptsansnarrowbold.woff2") format("woff2");
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: "MyPTSans";
+src: 
+url("../fonts/ptsansnarrowitalic.woff") format("woff"),
+url("../fonts/ptsansnarrowitalic.woff2") format("woff2");
+font-weight: normal;
+font-style: italic;
+}
+html,
+body {
+  min-width: 1122px; 
+  min-height: 1750px;
+}
+.html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+  background-image: url("../img/fon.jpg");
+  //background-size: 2560px auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border: 1px solid red;
+}
+.main-header {
+  margin-bottom: 75px; 
+  min-height: 285px;
+}
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  min-height: 285px;
+  background-color: transparent;
+  align-items: center;
+}
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom: 60px;
+    /* Временно для сетки */  
+  background-color: transparent;
+  min-height: 70px;
+}
+.main-navigation-wrapper .container{
+  display: flex;
+  justify-content: space-between;
+}
+.main-header-logo {
+    order: 2;
+  width: 368px;
+  height: 153px;
+
+/* Временно для сетки */    
+  //display: block;
+  border: 2px solid red;
+}
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  width: 620px;
+  list-style: none;
+  min-height: 70px;
+  border: 2px solid red;
+  //background-color: red;
+}
+.user-navigation {
+  margin: 0;
+  padding: 0;
+  width: 140px;
+  list-style: none;
+  min-height: 70px;
+  border: 2px solid red;
+  //background-color: red;
+}
+
+/* Main */
+.features {
+  margin-bottom: 80px;
+}
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+    /* Временно для сетки */  
+  min-height: 170px;
+}
+.feature-item {
+  min-height: 170px;
+  width: 300px;
+  border: 2px solid red;
+}
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  /* Временно для сетки */
+  background-color: transparent;
+  background-image: none;
+}
+.news {
+  width: 380px;
+  /* Временно для сетки */
+  min-height: 315px;
+    border: 2px solid red;
+}
+.gallery {
+  width: 300px;
+  /* Временно для сетки */
+  min-height: 315px; 
+    border: 2px solid red;
+}
+.contacts {
+  width: 300px;
+  /* Временно для сетки */
+  min-height: 290px;
+    border: 2px solid red;
+}
+.appointment {
+  width: 300px;
+  /* Временно для сетки */
+  min-height: 340px;
+    border: 2px solid red;
+}
+.main-footer {
+  padding:  60px 0;
+  margin-top: 65px;
+  /* Временно для сетки */
+  background: none;
+  min-height: 100px;
+}
+.footer-contacts {
+  width: 320px;
+  margin: 0;
+  margin-right: 80px;
+  /* Временно для сетки */
+  min-height: 100px;
+    border: 2px solid red;
+}
+.footer-social {
+  width:  145px;
+  /* Временно для сетки */
+  min-height: 100px;
+    border: 2px solid red;
+}
+.footer-copyright {
+  width: 150px;
+  margin: 0;
+  margin-left: auto;
+  /* Временно для сетки */
+  min-height: 100px;
+    border: 2px solid red;
+}
+.main-footer .container {
+  display: flex;
+}

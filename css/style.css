@@ -38,12 +38,14 @@ body {
   background-repeat: no-repeat;
 }
 .button {
+  padding: 10px;
   font: inherit;
   text-align: center;
   color: #ffffff;  
   vertical-align: middle;
   text-transform: uppercase;
   background-color: #000000;
+  min-width: 100px;
   border: none;
   font-family: "MyPTSans";    
 }
@@ -85,27 +87,14 @@ a {
   font-size: 30px;
   line-height: 42px;
 }
-.index-columns {
-  color: #000000;
-  background-color: #f8f5f2;
-  background-image: url("../img/pattern-light.jpg");
-  background-position: 0 0;
-  background-repeat: repeat;
-}
-.index-columns h2 {
-  font-size: 30px;
-  line-height: 42px;
-}
+
 .news-list {
   list-style: none;
 }
 .news-item time {
   text-transform: none;
 }
-.gallery-content {
-  background-color: #cccccc;
-  border: 7px solid #ffffff;
-}
+
 .appointment-item input {
   font: inherit;
   background-color: transparent;
@@ -166,4 +155,163 @@ a {
 .login-checkbox:hover,
 .login-checkbox:focus {
   color: #663d15;
+}
+
+.visually-hidden {
+  display: none;
+  //visibility: hidden;    
+}
+
+
+
+/* Для сеток */
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border: 1px solid red;
+}
+.main-header {
+  margin-bottom: 75px; 
+  min-height: 285px;
+}
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  min-height: 285px;
+  background-color: transparent;
+  align-items: center;
+}
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom: 60px; 
+  background-color: #000000;
+}
+.main-navigation-wrapper .container{
+  display: flex;
+  justify-content: space-between;
+}
+.main-header-logo {
+  order: 2;
+  width: 368px;
+  height: 153px;
+
+/* Временно для сетки */    
+  border: 2px solid red;
+}
+.site-navigation {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 620px;
+  list-style: none;
+  min-height: 70px;
+  border: 2px solid red;
+  //background-color: red;
+}
+.user-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 140px;
+  list-style: none;
+  min-height: 70px;
+  border: 2px solid red;
+  //background-color: red;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.feature-item {
+  min-height: 170px;
+  width: 300px;
+  border: 2px solid red;
+}
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  padding: 50px 80px;
+  margin-bottom: 30px;
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+.news {
+  width: 450px;
+    padding-left: 10px;
+  /* Временно для сетки */
+   border: 2px solid red;
+}
+.news-list p {
+    margin-left: -40px;
+}
+.gallery {
+  border: 7px solid #ffffff;
+  padding-left: 10px;
+  width: 440px;
+  /* Временно для сетки */
+    border: 2px solid red;
+}
+.gallery figure {
+    margin: 0;
+}
+.contacts {
+  //border: 7px solid #ffffff;
+  width: 430px;
+  padding-left: 10px;
+  /* Временно для сетки */
+    border: 2px solid red;
+}
+.appointment {
+  width: 430px;
+  padding-left: 10px;
+  /* Временно для сетки */
+    border: 2px solid red;
+}
+.footer-contacts {
+  width: 320px;
+  margin: 0;
+  margin-right: 80px;
+  /* Временно для сетки */
+  min-height: 100px;
+    border: 2px solid red;
+}
+.footer-social {
+  width:  145px;
+  /* Временно для сетки */
+  min-height: 100px;
+    border: 2px solid red;
+}
+.social-wrapper {
+    display: flex;
+}
+.footer-copyright {
+  width: 150px;
+  margin: 0;
+  margin-left: auto;
+  /* Временно для сетки */
+    border: 2px solid red;
+}
+.main-footer .container {
+  display: flex;
+align-items: center;
+}
+.copyright {
+    margin-left:auto;
 }
